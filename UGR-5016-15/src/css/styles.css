@@ -1,0 +1,280 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+body > nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    background-color: #1b2318e2;
+    color: #fff;
+    padding: 10px 20px;
+    padding-left: 200px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links div {
+    background-color: rgba(67, 185, 12, 0.767);
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    border-radius: 2px;
+    position: relative;
+    top: 20px;
+    right: 40px;
+    font-weight: lighter;
+}
+
+.slogan {
+    padding-left: 200px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.logo h1 span {
+    color: rgb(224, 146, 1);
+}
+
+main {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    justify-content: center;
+}
+
+main h1 {
+    color: rgb(111, 184, 2);
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.main-content {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.main-content article {
+    width: 45%;
+}
+
+.main-content article img {
+    width: 100%;
+    height: 200px;
+}
+
+.sidebar {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidebar nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar nav div {
+    width: auto;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
+
+.sidebar nav ul li div:hover {
+    background-color: #555;
+}
+
+.sponsors h4 {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    color: #f39c12;
+}
+
+.additional-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #1b2318e2;
+}
+
+.additional-content article {
+    margin-left: 200px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.article1 div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+}
+
+.article1 img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+.article2 p {
+    padding: 5px;
+}
+
+.article2 img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.article2 span a {
+    color: #1b8422;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article2 span a:hover {
+    text-decoration: underline;
+}
+
+.llink a:active {
+    color: #1b8422;
+}
+
+.main-content-about {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.main-content-contact {
+     width: 700px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    
+}
+
+.main-content-contact form {
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
